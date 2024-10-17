@@ -1,0 +1,159 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* color: white; */
+}
+body {
+    background: linear-gradient(45deg,lightblue,rgb(235, 105, 235),pink,plum);
+    background-position: 100% 100%;
+}
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.select-menu {
+    /* height: 300px; */
+    width: 300px;
+    /* background-color: aqua; */
+}
+.display-bar {
+    background-color: #EF5A6F;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+#display {
+    padding-left: 10px;
+    font-size: 20px;
+}
+.display-bar img {
+    height: 25px;
+    width: 20px;
+    background-size: cover;
+    margin-right: 10px;
+}
+.options-list {
+    background-color: #EF5A6F;
+    border-radius: 5px;
+}
+
+#facebook {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+/* #facebook :hover {
+    background-color: lightblue;
+} */
+#facebook img {
+    height: 25px;
+    width: 25x;
+}
+#facebook p {
+    margin-left: 10px;
+}
+
+#instagram {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#instagram img {
+    height: 25px;
+    width: 25x;
+}
+#instagram p {
+    margin-left: 10px;
+}
+
+#youtube {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#youtube img {
+    height: 25px;
+    width: 25x;
+}
+#youtube p {
+    margin-left: 10px;
+}
+
+#twitter {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#twitter img {
+    height: 25px;
+    width: 25x;
+}
+#twitter p {
+    margin-left: 10px;
+}
+
+#pintrest {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#pintrest img {
+    height: 25px;
+    width: 25x;
+}
+#pintrest p {
+    margin-left: 10px;
+}
+
+#whatsaap {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#whatsaap img {
+    height: 25px;
+    width: 25x;
+}
+#whatsaap p {
+    margin-left: 10px;
+}
+
+#linkedin {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+#linkedin img {
+    height: 25px;
+    width: 25x;
+}
+#linkedin p {
+    margin-left: 10px;
+}
+.options-list ul :hover {
+    cursor: pointer;
+}
+.options :hover {
+    background-color: aliceblue;
+}
+.hide {
+    visibility: hidden;
+}
+
+/* .options-list {
+    visibility: hidden;
+} */
